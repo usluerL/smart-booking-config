@@ -8,8 +8,10 @@ spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: file:///Users/lutfiusluer/development/projects/smart-booking-system/config-server/src/main/resources/config-repo/env/{profile}
+        git:
+          uri: https://github.com/usluerL/smart-booking-config.git
+          search-paths:
+            - config-server/src/main/resources
 
 eureka:
   client:
