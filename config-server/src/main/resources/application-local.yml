@@ -11,7 +11,7 @@ spring:
         git:
           uri: https://github.com/usluerL/smart-booking-config.git
           search-paths:
-            - config-server/src/main/resources
+            - config-server/src/main/resources/config-repo/env/local
 
 eureka:
   client:
