@@ -4,8 +4,7 @@ server:
 spring:
   application:
     name: notification-service
-  profiles:
-    active: dev
+
 
   kafka:
     bootstrap-servers: kafka:9092

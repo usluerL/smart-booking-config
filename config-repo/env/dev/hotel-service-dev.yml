@@ -1,9 +1,6 @@
 spring:
   application:
     name: hotel-service
-  profiles:
-    active: dev
-
   flyway:
     enabled: true
     locations: classpath:db/migration
