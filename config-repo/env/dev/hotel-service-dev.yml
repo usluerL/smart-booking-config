@@ -7,7 +7,7 @@ spring:
     validate-on-migrate: true
 
   datasource:
-    url: jdbc:postgresql://postgres:5432/smart_booking
+    url: "jdbc:postgresql://smart-booking-db:5432/smart_booking"
     username: booking_user
     password: booking_pass
     driver-class-name: org.postgresql.Driver

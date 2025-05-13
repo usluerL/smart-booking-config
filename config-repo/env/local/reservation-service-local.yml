@@ -1,8 +1,6 @@
 spring:
   application:
     name: reservation-service
-  profiles:
-    active: local
   flyway:
     enabled: true
     locations: classpath:db/migration
